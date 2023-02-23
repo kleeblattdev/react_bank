@@ -1,0 +1,44 @@
+.bankaccount{
+    text-align: center;
+    padding: 2rem;
+    background-color: #0659a8 ;
+    width: 350px;
+}
+
+.overview{
+    padding: 3rem;
+    margin: 1rem;;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+#balance{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #225b93;
+    margin: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"]{
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem;
+}
+
+button{
+    margin: 0.6rem auto;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 150px;
+    font-size: 1.2rem;
+    color: #f5f7fb;
+    background-color: #0582e5;
+}
